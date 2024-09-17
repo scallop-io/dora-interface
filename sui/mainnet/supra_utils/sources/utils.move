@@ -7,5 +7,5 @@ module supra_utils::utils {
     native public fun vector_flatten_concat<Element: copy + drop>(lhs: &mut vector<Element>, other: vector<vector<Element>>);
 
     // Calculates the power of a base raised to an exponent. The result of `base` raised to the power of `exponent`
-    native public fun calculate_power(base: u128, exponent: u16): u128;
+    native public fun calculate_power(base: u128, exponent: u16): u256;
 }
